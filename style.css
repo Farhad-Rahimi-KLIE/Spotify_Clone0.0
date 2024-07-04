@@ -1,0 +1,157 @@
+body{
+    background-color: rgb(203, 198, 192);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Ubuntu", sans-serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 53px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 61vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 8px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.bottom{
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 20px;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+#back{
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 760px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#forward{
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right:630px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: poisnter;
+}
+#play{
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 79px;
+    right: 694px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pause{
+    color: white;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 694px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem #play{
+    position: absolute;
+    top: 167px;
+    left:600px;
+    width: 10px;
+    cursor: pointer;
+}
+.songItem img{
+    width: 30px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+#qatar{
+    width: 10px;
+    position: absolute;
+    top: 225px;
+    left: 600px;
+    cursor: pointer;
+}
+#jan{
+    width: 10px;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+    cursor: pointer;
+}
+#khan{
+    width: 10px;
+    position: absolute;
+    top: 353px;
+    left: 600px;
+    cursor: pointer;
+}
+#qahar{
+    width: 10px;
+    position: absolute;
+    top: 414px;
+    left: 600px;
+    cursor: pointer;
+}
